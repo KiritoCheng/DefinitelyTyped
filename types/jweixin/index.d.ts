@@ -230,6 +230,7 @@ declare namespace wx {
 		isShowProgressTips: number; // 默认为1，显示进度提示
 		// 返回图片的服务器端ID
 		success(res: { serverId: string }): void;
+		cancel(): void;
 	}
 	/**
 	 * 上传图片接口
